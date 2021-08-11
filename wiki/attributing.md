@@ -1,5 +1,7 @@
 # Attributing
 
+When making a world using assets collected from other sources, always check the license of all associated works. Licensed works may only be distributed as allowed by the license after meeting all of the obligations of the license text. This page helps clarify those obligations, because every license differs.
+
 ## Credits Journal Entry
 
 It is recommended to create a Journal Entry called `Credits` at the root of the Journal Entries in the world you are working on. You could either list each attribution on its own line, categorize them by file type or logically into scenes, actors, etc.
