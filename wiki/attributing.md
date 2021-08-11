@@ -1,7 +1,5 @@
 # Attributing
 
-If you are using material licensed under [Creative Commons](https://creativecommons.org/) (a common license used by many artists), according to the terms of the license, you are required to give credit to the original author and indicate if changes were made. Note that **Creative Commons Zero (CC0, CC0 1.0)** does _not require_ attribution, but it is still a nice thing to do.
-
 ## Credits Journal Entry
 
 It is recommended to create a Journal Entry called `Credits` at the root of the Journal Entries in the world you are working on. You could either list each attribution on its own line, categorize them by file type or logically into scenes, actors, etc.
@@ -44,7 +42,11 @@ Sorted by file type:
 <p>Credit 2</p>
 ```
 
-## Attribution Structure
+## Creative Commons
+
+If you are using material licensed under [Creative Commons](https://creativecommons.org/) (a common license used by many artists), according to the terms of the license, you are required to give credit to the original author and indicate if changes were made. Note that **Creative Commons Zero (CC0, CC0 1.0)** does _not require_ attribution, but it is still a nice thing to do.
+
+### Attribution Structure
 
 Let us examine an example attribution:
 
@@ -77,17 +79,6 @@ With no changes made to the file and a single author.
 ```md
 Markdown: **File Name**: "[Source Page Title or File Name](link-to-source-website-or-file)" by [Author](author's-website) is licensed under [License Abbreviation](link-to-license-deed).
 HTML: <p><strong>File Name</strong>: "<a href="link-to-source-website-or-file">Source Page Title or File Name</a>" by <a href="author's-website">Author</a> is licensed under <a href="link-to-license-deed">License Abbreviation</a>.</p>
-```
-
-#### Unknown License
-
-If the source material license is unknown, but you still want to credit the author.
-
-> **File Name**: "[Source Page Title or File Name](link-to-source-website-or-file)" by [Author](author's-website).
-
-```md
-Markdown: **File Name**: "[Source Page Title or File Name](link-to-source-website-or-file)" by [Author](author's-website).
-HTML: <p><strong>File Name</strong>: "<a href="link-to-source-website-or-file">Source Page Title or File Name</a>".</p>
 ```
 
 #### Multiple Authors
@@ -137,6 +128,17 @@ If the content you are attributing does not specify the version of the Creative 
 | CC0 1.0 Universal                                         | CC0 1.0         | [Deed](https://creativecommons.org/publicdomain/zero/1.0/) |
 
 For further clarifications about the licenses, see the [License Versions](https://wiki.creativecommons.org/wiki/License_Versions) article on the Creative Commons wiki.
+
+## Unknown License
+
+If the source material license is unknown, but you still want to credit the author.
+
+> **File Name**: "[Source Page Title or File Name](link-to-source-website-or-file)" by [Author](author's-website).
+
+```md
+Markdown: **File Name**: "[Source Page Title or File Name](link-to-source-website-or-file)" by [Author](author's-website).
+HTML: <p><strong>File Name</strong>: "<a href="link-to-source-website-or-file">Source Page Title or File Name</a>".</p>
+```
 
 ---
 
