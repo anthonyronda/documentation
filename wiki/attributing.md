@@ -107,7 +107,7 @@ Markdown: **File Name**: "[Source Page Title or File Name](link-to-source-websit
 HTML: <p><strong>File Name</strong>: "<a href="link-to-source-website-or-file">Source Page Title or File Name</a>" by <a href="author's-website">Author</a> is licensed under <a href="link-to-license-deed">License Abbreviation</a>. / Briefly describe changes you've made.</p>
 ```
 
-## Table of Creative Commons Licenses
+### Table of Creative Commons Licenses
 
 This table is provided for quick reference purposes. For an up to date list of Creative Commons licenses see: [https://creativecommons.org/licenses/](https://creativecommons.org/licenses/)
 
@@ -132,6 +132,57 @@ If the content you are attributing does not specify the version of the Creative 
 | CC0 1.0 Universal                                         | CC0 1.0         | [Deed](https://creativecommons.org/publicdomain/zero/1.0/) |
 
 For further clarifications about the licenses, see the [License Versions](https://wiki.creativecommons.org/wiki/License_Versions) article on the Creative Commons wiki.
+
+## Open Game License
+
+There are thousands of Dungeons & Dragons and Pathfinder publications available for reuse and redistribtion under the OGL, the same license as the D&D/PF Systems Reference Documents for those systems (SRDs). If one uses and distributes an OGL derivative work, that work must also be OGL licensed. This is similar to a weak copyleft source code license.
+
+Please note that citations for the below are currently being compiled from Wayback Machine backups of the Open Game Foundation's mailing list archive (and other sources). Each paragraph will have a source link on a later date.
+
+### Product Identity and Open Game Content
+
+Every OGL publication should have a section designating portions as Product Identity and portions as Open Game Content. As described in the license text, Open Game Content is the only content that may be reused. If this section is missing, one should confirm with the publisher which portions are Open Game Content. The license is written such that the entire publication is Open Game Content if nothing is explicitly declared, though it is safest to ask before reusing the publication.
+
+The Open Game License only grants reuse under copyright law, and does not grant a license for trademark or patent use.
+
+#### Declaring Product Identity and Open Game Content in Your Package
+
+One must remove all Product Identity one doesn't have explicit permission to use, and must not include it in their OGL derivative work. One may include new content (content for which one owns the copyright) in their derivative work and declare it as Product Identity.
+
+If this is desired, include the phrase `Product Identity:` followed by a detailed description of the content or the location of the content that is not Open Game Content. Otherwise everything included will be considered Open Game Content. If something in the package is licensed under a separate license and should not be licensed under OGL, declare it as Product Identity.
+
+Also include the phrase `Open Game Content:` in a separate paragraph, followed by a detailed description of the content or the location of the content that _is_ Open Game Content. For the most clarity, both of these paragraphs together should describe _all_ of the copyrighted content in your package.
+
+### The OGL 1.0a License Text
+
+This wiki recommends two versions of the license text for your use.
+
+- [OGL 1.0a with linebreaks](https://raw.githubusercontent.com/anthonyronda/LicenseRef-OGL-1.0a/main/LICENSE) for viewing in text editors without word wrap
+- [OGL 1.0a without linebreaks](https://raw.githubusercontent.com/anthonyronda/LicenseRef-OGL-1.0a/open-gaming-foundation-without-line-breaks/LICENSE) for use in documents with word wrap
+
+One should use the version that suits one's usecase. Capitalization and punctuation may not match the original works that the package is reusing; this is fine (they often don't match each other either). These text files are a match to an upcoming [SPDX](https://spdx.dev) proposal, which will allow them to be used by license compliance tools.
+
+#### Preparing an OGL License Text For Your Package
+
+At the end of the provided OGL text, one must include the proper copyright notices.
+
+First, the copyright notice for the license itself is always included in the text as the first copyright notice.
+
+`Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.`
+
+Next, Each on their own lines, create a copyright notice for each work being reused, and each work cited in that work's COPYRIGHT NOTICE section, including publication title, publication year, and publication author(s) just like in the original copyright notice.
+
+Finally, include the package title, package publication year, and package author(s) as the final copyright notice.
+
+#### Preparing Multiple OGL License Texts For Your Package
+
+Including Open Game Content from multiple OGL publications in the same package can make the COPYRIGHT NOTICE section unwieldy to read, though it is allowed. It also makes reuse more complicated, since users won't know which Open Game Content came from which publications. Another option is to prepare multiple license texts for individual portions of world content.
+
+To do this, each OGL license text should be included in a subdirectory that contains a specific portion of Open Game Content. Each license text would therefore have different copyright notices depending on what content is contained in that subdirectory. This makes the reading the copyright notices and reusing specific portions of the content far easier.
+
+### Including the License Text in your Work
+
+The prepared license text(s) should be distributed in the package for easy viewing by any user of the content. Because the license text may change as you provide updates to your package, it's advisable _not_ to store the text in a Journal Entry in addition to a text file, where mistakes could lead to them being out of sync. Instead, link to the file in a Journal Entry, or find some other manner in which OGL text can be accessed via the application.
 
 ## Unknown License
 
