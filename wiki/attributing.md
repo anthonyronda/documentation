@@ -6,6 +6,8 @@ When making a world using assets collected from other sources, always check the 
 
 It is recommended to create a Journal Entry called `Credits` at the root of the Journal Entries in the world you are working on. You could either list each attribution on its own line, categorize them by file type or logically into scenes, actors, etc.
 
+This recommendation is _in addition_ to the attribution method required by the content license, _not a replacement_ for the attribution method required by the license.
+
 ### Example Journal Entry
 
 Logically sorted:
